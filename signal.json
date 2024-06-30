@@ -1,0 +1,53 @@
+{
+	"PORT": 88,
+	"auth": false,
+	"exeUeCoolTime": 60,
+	"idleReleaseTime":20,
+	"SignalIp":"127.0.0.1",
+	"globlesetting": {
+	  "WebRTCFps": 30,
+	  "ResX": 1920,
+	  "ResY": 1080,
+	  "Unattended": true,
+	  "RenderOffScreen": true,
+	  "AudioMixer": true
+	},
+	"machine": [
+	  {
+		"ip": "127.0.0.1",
+		"gpu": [
+		  {
+			"gpucard": 0,
+			"gpumemory": 16
+		  }
+		]
+	  }
+	],
+	"ueprogram": [
+	  {
+		"name": "test",
+		"path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
+		"urlprefix": "hedongzai",
+		"gpumemory": 7,
+		"param": ""
+	  },
+	  {
+		"name": "test",
+		"path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
+		"urlprefix": "hensan",
+		"gpumemory": 7,
+		"preload":false,
+		"param": ""
+	  }
+	],
+	"iceServers": [
+	  {
+		"urls": [
+		  "stun:stun.l.google.com:19302"
+		],
+		"username": "1",
+		"credential": "1"
+	  }
+	]
+  }
+  
