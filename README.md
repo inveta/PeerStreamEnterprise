@@ -34,7 +34,7 @@ inveta团队打造的企业级管理平台，帮助大家用好云渲染。
 13 2024-07-01 修复了webpack打包之后读取json配置文件错误的bug  
 14 2024-07-08 解决execue杀进程偶发崩溃的bug  
 15 2024-07-08 解决当UE实例的url不符合规则的时候，赋予第一个UE实例的urlprefix   
-
+16 2024-07-08 解决signal.json中ueprogram没有内容，打印为空的bug  
 
 
 
