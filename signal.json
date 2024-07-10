@@ -3,6 +3,7 @@
 	"auth": false,
 	"exeUeCoolTime": 60,
 	"idleReleaseTime":20,
+	"preloadReleaseTime":20,
 	"SignalIp":"127.0.0.1",
 	"globlesetting": {
 	  "WebRTCFps": 30,
@@ -28,7 +29,8 @@
 		"name": "test",
 		"path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
 		"urlprefix": "hedongzai",
-		"gpumemory": 7,
+		"gpumemory": 9,
+		"preload":true,
 		"param": ""
 	  },
 	  {
