@@ -12,7 +12,9 @@ inveta团队打造的企业级管理平台，帮助大家用好云渲染。
 5 支持多个机器、多个显卡的负载均衡  
 6 支持UE实例的全生命周期管理（启动、关闭）  
 7 支持预加载，更好的用户体验  
-8 更多功能开发中
+8 支持api的二次开发    
+9 支持静态网页文件的托管  
+10 更多功能开发中
 
 # 使用方法
 [PeerStreamEnterprise部署使用](https://github.com/inveta/PeerStreamEnterprise/wiki/PeerStreamEnterprise%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8)
@@ -36,6 +38,8 @@ inveta团队打造的企业级管理平台，帮助大家用好云渲染。
 15 2024-07-08 解决当UE实例的url不符合规则的时候，赋予第一个UE实例的urlprefix   
 16 2024-07-08 解决signal.json中ueprogram没有内容，打印为空的bug  
 17 2024-07-10 增加了preloadReleaseTime字段，预加载一段时间可以自动释放  
+18 2024-07-10 增加了基于koa的框架进行api的处理,并增加了对静态文件托管的处理    
+19 2024-07-11 优化了控制台打印，可以打印真实的IP地址  
 
 
 
