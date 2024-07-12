@@ -2,8 +2,8 @@
 	"PORT": 88,
 	"auth": false,
 	"exeUeCoolTime": 60,
-	"idleReleaseTime":20,
-	"preloadReleaseTime":20,
+	"idleReleaseTime":120,
+	"preloadReleaseTime":15000,
 	"SignalIp":"127.0.0.1",
 	"globlesetting": {
 	  "WebRTCFps": 30,
