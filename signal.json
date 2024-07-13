@@ -1,55 +1,55 @@
 {
-	"PORT": 88,
-	"auth": false,
-	"exeUeCoolTime": 60,
-	"idleReleaseTime":120,
-	"preloadReleaseTime":15000,
-	"SignalIp":"127.0.0.1",
-	"globlesetting": {
-	  "WebRTCFps": 30,
-	  "ResX": 1920,
-	  "ResY": 1080,
-	  "Unattended": true,
-	  "RenderOffScreen": true,
-	  "AudioMixer": true
-	},
-	"machine": [
-	  {
-		"ip": "127.0.0.1",
-		"gpu": [
-		  {
-			"gpucard": 0,
-			"gpumemory": 16
-		  }
-		]
-	  }
-	],
-	"ueprogram": [
-	  {
-		"name": "test",
-		"path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
-		"urlprefix": "hedongzai",
-		"gpumemory": 9,
-		"preload":true,
-		"param": ""
-	  },
-	  {
-		"name": "test",
-		"path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
-		"urlprefix": "hensan",
-		"gpumemory": 7,
-		"preload":false,
-		"param": ""
-	  }
-	],
-	"iceServers": [
-	  {
-		"urls": [
-		  "stun:stun.l.google.com:19302"
-		],
-		"username": "1",
-		"credential": "1"
-	  }
-	]
-  }
-  
+  "PORT": 88,
+  "auth": false,
+  "userpwd": "admin:dd2f757773f1fb6c690f3c1305c739bc4e8f35fd3e9eb69c4cdeb98d716f7eec",
+  "exeUeCoolTime": 60,
+  "idleReleaseTime": 20,
+  "preloadReleaseTime": 120,
+  "SignalIp": "127.0.0.1",
+  "globlesetting": {
+    "WebRTCFps": 30,
+    "ResX": 1920,
+    "ResY": 1080,
+    "Unattended": true,
+    "RenderOffScreen": true,
+    "AudioMixer": true
+  },
+  "machine": [
+    {
+      "ip": "127.0.0.1",
+      "gpu": [
+        {
+          "gpucard": 0,
+          "gpumemory": 16
+        }
+      ]
+    }
+  ],
+  "ueprogram": [
+    {
+      "name": "test",
+      "path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
+      "urlprefix": "hedongzai",
+      "gpumemory": 9,
+      "preload": false,
+      "param": ""
+    },
+    {
+      "name": "test",
+      "path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
+      "urlprefix": "hensan",
+      "gpumemory": 8,
+      "preload": false,
+      "param": ""
+    }
+  ],
+  "iceServers": [
+    {
+      "urls": [
+        "stun:stun.l.google.com:19302"
+      ],
+      "username": "1",
+      "credential": "1"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ inveta团队打造的企业级管理平台，帮助大家用好云渲染。
 10 更多功能开发中
 
 # 使用方法
-[PeerStreamEnterprise部署使用](https://github.com/inveta/PeerStreamEnterprise/wiki/PeerStreamEnterprise%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8)
+[PeerStreamEnterprise部署使用](https://github.com/inveta/PeerStreamEnterprise/wiki)
 
 
 # 更新记录
@@ -42,6 +42,7 @@ inveta团队打造的企业级管理平台，帮助大家用好云渲染。
 19 2024-07-11 优化了控制台打印，可以打印真实的IP地址  
 20 2024-07-12 增加了inveta的第一个介绍api接口，并修复了日志文件路径不对的问题  
 21 2024-07-13 改进了execue连接signal的延迟，不再等待10秒之后  
+22 2024-07-12 增加了登录、token鉴权、系统配置等api接口，并增加了像素流的访问鉴权  
 
 
 
