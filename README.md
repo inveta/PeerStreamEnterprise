@@ -42,7 +42,19 @@ inveta团队打造的企业级管理平台，帮助大家用好云渲染。
 19 2024-07-11 优化了控制台打印，可以打印真实的IP地址  
 20 2024-07-12 增加了inveta的第一个介绍api接口，并修复了日志文件路径不对的问题  
 21 2024-07-13 改进了execue连接signal的延迟，不再等待10秒之后  
-22 2024-07-12 增加了登录、token鉴权、系统配置等api接口，并增加了像素流的访问鉴权  
+22 2024-07-13 增加了登录、token鉴权、系统配置等api接口，并增加了像素流的访问鉴权  
+
+
+
+
+# © MIT License
+Copyright (c) 2020-2024 Inveta  
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
 
 
 
