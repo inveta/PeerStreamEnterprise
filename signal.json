@@ -1,10 +1,10 @@
 {
-  "PORT": 88,
+  "PORT": 11188,
   "auth": false,
   "userpwd": "admin:dd2f757773f1fb6c690f3c1305c739bc4e8f35fd3e9eb69c4cdeb98d716f7eec",
   "exeUeCoolTime": 60,
-  "idleReleaseTime": 20,
-  "preloadReleaseTime": 120,
+  "idleReleaseTime": 120,
+  "preloadReleaseTime": 15000,
   "SignalIp": "127.0.0.1",
   "globlesetting": {
     "WebRTCFps": 30,
