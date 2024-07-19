@@ -1,5 +1,5 @@
 {
-	"signalPort": 88,
+	"signalPort": 11188,
 	"signalIp": "127.0.0.1",
 	"execueIp": "127.0.0.1"
 }
