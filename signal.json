@@ -6,6 +6,7 @@
   "exeUeCoolTime": 60,
   "idleReleaseTime": 120,
   "preloadReleaseTime": 15000,
+  "mouseReleaseTime": 0,
   "SignalIp": "127.0.0.1",
   "globlesetting": {
     "WebRTCFps": 30,
